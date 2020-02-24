@@ -1,0 +1,11 @@
+virtualenv --python=python3.7 kidsbooks
+
+cd kidsbooks
+
+source ./bin/activate
+
+deactivate
+
+pip3 install requests requests-toolbelt
+
+https://sites.google.com/a/chromium.org/chromedriver/downloads
